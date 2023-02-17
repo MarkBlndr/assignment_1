@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 255, 248);
+    text-align: center;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+  
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4em;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 0.5%;
+  }
+
+  #header {
+    margin-bottom: 5%;
+  }
+
+  #nav {
+    float: right;
+  }
+
+  #navText {
+    margin-top: 200%;
+    font-size: 1em;
+  }
+  
+  img {
+    border-radius: 5%;
+  }
+
+  p {
+    text-align: left;
+  }
+
+  #contentImg {
+    margin-left: 5%;
+  }
+  
+  .column {
+    float: left;
+    width: 50%%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
