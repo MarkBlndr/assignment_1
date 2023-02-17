@@ -23,7 +23,7 @@ body {
   }
 
   #navText {
-    margin-top: 200%;
+    text-align: right;
     font-size: 1em;
   }
   
@@ -33,15 +33,21 @@ body {
 
   p {
     text-align: left;
+    font-size: 1.25em;
+    line-height: 1.5em;
   }
 
   #contentImg {
     margin-left: 5%;
   }
-  
+
+  .row {
+    display: flex;
+  }
+
   .column {
-    float: left;
-    width: 50%%;
+    float: right;
+    width: 50%;
   }
   
   .row:after {
